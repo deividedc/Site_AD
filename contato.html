@@ -1,0 +1,61 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="folhadeestilo.css">
+<link rel="icon" href="icone.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="icone.ico" type="image/x-icon" />
+<title>AD Studio</title>
+</head>
+
+<body class="fundo2">
+<div class="container">
+  <div class="banner">
+    <div class="logo"> <img src="logo.png"/> </div>
+    <div class="instagram"> Confira nosso Instagram! </div>
+    <div class="menu2">
+      <table class="fontemenu">
+        <tr>
+          <td class= "largura3"><a class="menu" href="home.html">Home</a></td>
+          <td class="largura1" ><a class="menu" href="consultoria.html">Consultoria</a></td>
+          <td class="largura1" ><a class="menu" href="publicacao.html">Publicações</a></td>
+          <td class="largura3" ><a class="menu" href="projetos.html"> Projetos</a></td>
+          <td class="largura1" ><a class="menuativo" href="contato.html">Contato</a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="corpo" style="background-image:url(Contato/contatofundo.png); height:360px;" >
+	<div style="position:relative; width:400px; ">
+    	<p align="justify" style="font-size:24px;">
+        	Entre em contato conosco que vamos retornar o mais rápido possível!
+        </p>
+        
+    </div>  
+  	<div style="position:relative; width:400px; left:450; top:-70;">
+   		<form action="enviar.php" method="POST"> 
+	<p> 
+		Nome:<br /> 
+		<input type="text" size="30" name="nome"> 
+	</p>   
+	<p> 
+		E-mail:<br /> 
+		<input type="text" size="30" name="email">		
+	</p>   
+	<p> 
+		Telefone:<br /> 
+		<input type="text" size="30" name="telefone"> 
+	</p>   
+	<p> 
+		Mensagem:<br /> 
+		<textarea cols="40" rows="8" name="mensagem"> </textarea>
+	</p>   
+	<p>
+          <input type="submit" name="BTEnvia" value="Enviar"> 
+	  <input type="reset" name="BTApaga" value="Apagar">
+        </p>
+
+   	</div>
+        
+  </div>
+</div>
+</body>
+</html>

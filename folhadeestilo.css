@@ -1,0 +1,104 @@
+@charset "utf-8";
+.fundo{
+	background-image:url(Backgruond1.jpg);
+	background-repeat: no-repeat;
+	overflow:hidden;
+	
+}
+.fundo2{
+	background-image:url(Backgruond1.jpg);
+	background-repeat: no-repeat;
+	overflow: scroll;
+	overflow-x:hidden
+	
+}
+
+a.menu:link {
+		text-decoration: none;
+		color: #000;
+	}
+a.menu:visited {
+		text-decoration:none;
+		color: #000; 
+	}
+a.menu:hover {
+		text-decoration: none; 
+		color: #999;
+	}
+a.menu:active {
+		text-decoration: none;
+		color: #000;
+	}
+a.menuativo:link {
+		text-decoration: none;
+		color: #000 
+	}
+a.menuativo:visited {
+		text-decoration: none;
+		color: #F90;
+	}
+a.menuativo:hover {
+		text-decoration: none; 
+		color: #F90; 
+	}
+a.menuativo:active {
+	text-decoration: none;
+	color: #000;
+	}
+.fontemenu{
+	font-size: 18px;
+	font-family: Lucida Sans Unicode; 	
+}
+
+
+.container{
+	width: 800px;
+  	margin: auto;
+}
+.banner {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 150px;
+	}
+.corpo{
+	position: relative;
+	wiwidth: 800px;
+
+	
+}
+.menu2 {
+	position: relative;
+	left: 300px;
+	width: 500px;
+	top: -110px;
+	
+}
+.largura1{
+	width: 150px;
+	align: left;
+}
+
+.largura2{
+	width: 110px;
+}
+
+.largura3{
+	width: 90px;
+}
+.instagram{
+	position: relative;
+	width: 400px;
+	top: -120px;
+	left: 400px;
+	font-size: 36px;
+	font-family: SWIsop1;
+}
+.logo{
+	position: relative;
+	left: -45px;
+	width: 300px;
+	height: 150px;
+	top: -10px;
+}

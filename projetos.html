@@ -1,0 +1,81 @@
+﻿<html>
+<head>
+<link rel="stylesheet" type="text/css" href="folhadeestilo.css">
+<link rel="icon" href="icone.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="icone.ico" type="image/x-icon" />
+<title>AD Studio</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" > <!-- Definição do Charset-->
+
+       <script src="js/jquery-1.7.2.min.js"></script>
+       <script src="js/lightbox.js"></script>
+
+       <link href="css/lightbox.css" rel="stylesheet" />
+
+       <script type="text/javascript">
+           $(function () {
+               $('#gallery a').lightBox();
+           });
+        </script>
+
+    <!-- jQuery lightBox plugin - Gallery style */ -->
+    <style type="text/css">
+	#gallery {
+		
+		padding: 10px;
+		width: auto;
+	}
+	#gallery ul { list-style: none; }
+	#gallery ul li { display: inline; }
+	#gallery ul img {
+		border: 5px solid #444444;
+		border-width: 5px 5px 20px;
+	}
+	#gallery ul a:hover img {
+		border: 5px solid #F90;
+		border-width: 5px 5px 20px;
+		color: #fff;
+	}
+	#gallery ul a:hover { color: #F90; }
+	</style>
+</head>
+
+<body class="fundo2">
+<div class="container">
+  <div class="banner">
+    <div class="logo"> <img src="logo.png"/> </div>
+    <div class="instagram"> Confira nosso Instagram! </div>
+    <div class="menu2">
+      <table class="fontemenu">
+        <tr>
+          <td class= "largura3"><a class="menu" href="home.html">Home</a></td>
+          <td class="largura1" ><a class="menu" href="consultoria.html">Consultoria</a></td>
+          <td class="largura1" ><a class="menu" href="publicacao.html">Publicações</a></td>
+          <td class="largura3" ><a class="menuativo" href="projetos.html"> Projetos</td></a>
+          <td class="largura1" ><a class="menu" href="contato.html">Contato</a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="corpo">
+  			     
+<div id="gallery">
+       <ul><li>	<a href="images/examples/image-1.jpg" rel="lightbox" ><img src="images/examples/image-1.jpg" width="200" height="200" alt=""  /></a>
+       <a href="images/examples/image-2.jpg" rel="lightbox" ><img src="images/examples/image-2.jpg" width="200" height="200" alt=""  /></a>
+       <a href="images/examples/image-3.jpg" rel="lightbox"><img src="images/examples/image-3.jpg" width="200" height="200" alt="" /></a>
+       </li></ul>
+     
+	<ul><li><a href="images/examples/image-1.jpg" rel="lightbox" ><img src="images/examples/image-1.jpg" width="200" height="200" alt=""  /></a>
+       <a href="images/examples/image-2.jpg" rel="lightbox" ><img src="images/examples/image-2.jpg" width="200" height="200" alt=""  /></a>
+       <a href="images/examples/image-3.jpg" rel="lightbox"><img src="images/examples/image-3.jpg" width="200" height="200" alt="" /></a>
+       </li></ul>
+  
+        <ul><li><a href="images/examples/image-1.jpg" rel="lightbox" ><img src="images/examples/image-1.jpg" width="200" height="200" alt=""  /></a>
+       <a href="images/examples/image-2.jpg" rel="lightbox" ><img src="images/examples/image-2.jpg" width="200" height="200" alt=""  /></a>
+       <a href="images/examples/image-3.jpg" rel="lightbox"><img src="images/examples/image-3.jpg" width="200" height="200" alt="" /></a>
+       </li></ul>
+       </div>
+       
+  </div>
+</div>
+</body>
+</html>
